@@ -1,0 +1,24 @@
+# API y configuración
+fastapi
+uvicorn[standard]
+pydantic-settings[dotenv]
+httpx
+python-multipart
+
+# IA y agentes
+langgraph
+langchain-groq
+langchain-text-splitters
+
+# Persistencia y checkpoints
+langgraph-checkpoint-redis
+
+# Observabilidad
+langsmith
+
+# Ingesta de documentos PDF
+pypdf
+
+redis
+pinecone
+rank-bm25
